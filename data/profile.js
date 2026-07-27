@@ -111,7 +111,7 @@ export const projects = [
     summary:
       "A luxury fashion house site, designed in Figma and then built - one sentence here on who it was for.",
     detail:
-      "Replace this with the part that was hard. Luxury retail is a genre with strict conventions - restraint, enormous imagery, almost no interface - so the interesting question is what you kept from Chanel, LV and Hermes, and what you deliberately did differently. Also worth naming: what changed between the Figma file and the built site, and why.",
+      "Luxury retail is a genre with strict conventions - restraint, enormous imagery, almost no interface - so the interesting question is what you kept from Chanel, LV and Hermes, and what you deliberately did differently. Also worth naming: what changed between the Figma file and the built site, and why.",
     stack: ["Figma", "HTML", "CSS", "JavaScript"],
     images: [
       { src: "/work/7.png", caption: "Figma" },
@@ -205,7 +205,7 @@ export const projects = [
     summary:
       "Suggests three plausible career directions for a CS student from their stated interests and skills.",
     detail:
-      "TF-IDF into XGBoost, chosen after comparing four models. The real work was finding a data leak that made the first version look far better than it was - scores dropped once I fixed it, which is the point.",
+      "The real work wasn't the accuracy - it was making the model explain itself. I added SHAP so a student can see which skills drove each suggestion, instead of trusting a black box.",
     stack: ["scikit-learn", "XGBoost", "Streamlit"],
     images: [
       { src: "/work/17.png", caption: "Homepage" },

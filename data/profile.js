@@ -249,6 +249,25 @@ export const projects = [
       { label: "Live App", href: "https://scam-shield-joy-pro.vercel.app/" },
     ],
   },
+    {
+    id: "ganjil-genap-air-quality",
+    name: "Ganjil-Genap & Air Quality",
+    short: "Ganjil-Genap",
+    elevation: 102,
+    year: "2026",
+    kind: "Causal inference",
+    summary:
+      "Does Jakarta's odd-even vehicle restriction actually reduce NO2 pollution? Four causal designs later, the honest answer is: the data can't tell us.",
+    detail:
+      "Full pipeline from data collection - ISPU, Sentinel-5P TROPOMI satellite readings, Open-Meteo weather data, and Google Mobility - through four separate causal designs: difference-in-differences, interrupted time series, event study, and randomization inference. The result was null and inconclusive across all four. Rather than force a conclusion the data didn't support, I treated the null result itself as the finding: a demonstration of what rigorous identification looks like when a policy's effect is genuinely hard to isolate from weather, mobility, and seasonal confounds. Deployed as a Streamlit dashboard so the analysis is explorable, not just a static report.",
+    stack: ["Python", "pandas", "Causal inference", "DiD", "Streamlit"],
+    images: [
+      { src: "/work/23.png", caption: "Dashboard" }
+    ],
+    links: [
+      { label: "Interactive Dashboard", href: "https://jakarta-ganjil-genap.streamlit.app/" },
+    ],
+  },
 ];
 
 /**
@@ -312,7 +331,7 @@ export const capabilities = [
  * section from app/page.jsx if you would rather not have it.
  */
 export const stats = [
-  { value: 9, suffix: "", label: "Projects completed" },
+  { value: 10, suffix: "", label: "Projects completed" },
   { value: 1, suffix: "", label: "Conference paper submitted" },
   { value: 5, suffix: "", label: "Teammates led on research" },
 ];

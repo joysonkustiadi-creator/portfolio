@@ -4,7 +4,8 @@ export const profile = {
   location: "Jakarta, Indonesia",
   email: "joyson.kustiadi@gmail.com",
   github: "https://github.com/joysonkustiadi-creator",
-  linkedin: "https://linkedin.com/in/your-handle",
+  linkedin: "https://www.linkedin.com/in/joshuajoyson/'",
+  cv: 'https://drive.google.com/file/d/1EjqYb2nzbm0f-vbEZ7GzpGyw3RE8S3n8/view?usp=sharing',
 
   // Drop your photo at public/portrait.jpg (or .png and update the path).
   // Square crop works best — roughly 600x600.
@@ -21,15 +22,17 @@ export const profile = {
   ],
 
   // Set in oversized type at the top of the page, one line each.
-  headline: ["SYSTEMS", "PEOPLE", "CAN TRUST"],
+  headline: ["BUILD", "ANALYZE", "AND IMPACT"],
 
   // Cycled one at a time under your name in the hero.
   roles: [
+    "data processing",
+    "data analysis",
     "machine learning",
     "natural language processing",
     "computer vision",
-    "interface design",
     "full-stack products",
+    "interface design"
   ],
 
   intro:
@@ -135,7 +138,7 @@ export const projects = [
     summary:
       "A communication aid built for Samsung Solve for Tomorrow 2025 with team Mindsync Innovator.",
     detail:
-      "Scoped, prototyped and pitched under competition deadline. The round where I learned that a clear problem statement beats a clever model - our first pitch led with architecture and lost the room.",
+      "Proposed smart glasses that read playing cards aloud via audio, letting blind and visually impaired players play competitive contract bridge independently. I led concept development and user research to frame the problem and shape the proposal.",
     stack: ["Product design", "Prototyping"],
     images: [
       { src: "/work/10.png", caption: "Wireframe Prototype" },
@@ -262,7 +265,10 @@ export const projects = [
       "Full pipeline from data collection - ISPU, Sentinel-5P TROPOMI satellite readings, Open-Meteo weather data, and Google Mobility - through four separate causal designs: difference-in-differences, interrupted time series, event study, and randomization inference. The result was null and inconclusive across all four. Rather than force a conclusion the data didn't support, I treated the null result itself as the finding: a demonstration of what rigorous identification looks like when a policy's effect is genuinely hard to isolate from weather, mobility, and seasonal confounds. Deployed as a Streamlit dashboard so the analysis is explorable, not just a static report.",
     stack: ["Python", "pandas", "Causal inference", "DiD", "Streamlit"],
     images: [
-      { src: "/work/23.png", caption: "Dashboard" }
+      { src: "/work/23.png", caption: "Timeline" },
+      { src: "/work/24.png", caption: "Counterfactual" },
+      { src: "/work/25.png", caption: "Lintas desain" },
+      { src: "/work/26.png", caption: "Randomization inference" }
     ],
     links: [
       { label: "Interactive Dashboard", href: "https://jakarta-ganjil-genap.streamlit.app/" },

@@ -24,7 +24,7 @@ const mono = IBM_Plex_Mono({
 
 // This is what shows up in Google and in link previews. Worth getting right.
 export const metadata = {
-  title: `${profile.name} — ${profile.role}`,
+  title: `${profile.name}: Computer & Data Science Student`,
   description: profile.intro.slice(0, 155),
   openGraph: {
     title: profile.name,

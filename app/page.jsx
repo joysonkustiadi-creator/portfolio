@@ -185,7 +185,7 @@ export default function Home() {
           <Reveal>
             <p className="eyebrow">Get in touch</p>
             <h2 className="display h2 contact__heading">
-              Open to research collaborations and internships.
+              Open for collaborations and internships.
             </h2>
             <a className="contact__mail" href={`mailto:${profile.email}`}>
               {profile.email}
@@ -198,6 +198,9 @@ export default function Home() {
             &copy; {new Date().getFullYear()} {profile.name}
           </span>
           <span className="links">
+            <a className="link" href={'https://drive.google.com/file/d/1EjqYb2nzbm0f-vbEZ7GzpGyw3RE8S3n8/view?usp=sharing'} target="_blank" rel="noreferrer">
+              CV
+            </a>
             <a className="link" href={'https://github.com/joysonkustiadi-creator'} target="_blank" rel="noreferrer">
               GitHub
             </a>
